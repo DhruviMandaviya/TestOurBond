@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "391356164760",
+    "firebase_url": "https://testourbond-ff434.firebaseio.com",
+    "project_id": "testourbond-ff434",
+    "storage_bucket": "testourbond-ff434.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391356164760:android:d697d970f0b112daf7feed",
+        "android_client_info": {
+          "package_name": "com.example.testourbond"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391356164760-7upevtlhdkhqcphignqek772rfililm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt5_W9LzPJxeyESx6NXzEYekTAdzJLfFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391356164760-7upevtlhdkhqcphignqek772rfililm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

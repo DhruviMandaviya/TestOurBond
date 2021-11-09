@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ResultFragment">
+
+    <TextView
+        android:id="@+id/results_title"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/crimson_text_semibold"
+        android:text="Results"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar android:layout_height="128dp" android:layout_width="128dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="64dp" android:id="@+id/results_progress" app:layout_constraintTop_toBottomOf="@+id/results_title" style="?android:attr/progressBarStyle"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintTop_toTopOf="@+id/results_progress" app:layout_constraintStart_toStartOf="@+id/results_progress" app:layout_constraintEnd_toEndOf="@+id/results_progress" android:textSize="26sp" android:textColor="@color/colorPrimary" android:text="100%" android:fontFamily="@font/work_sans" android:id="@+id/results_percent" app:layout_constraintBottom_toBottomOf="@+id/results_progress"/>
+
+    <TextView
+        android:id="@+id/results_correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/work_sans"
+        android:text="Question Attended"
+        android:textColor="@color/colorLightText"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/results_progress" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintStart_toStartOf="parent" android:textSize="16sp" android:textColor="@color/colorLightText" android:text="Questions Missed" android:fontFamily="@font/work_sans" android:layout_marginTop="32dp" android:layout_marginStart="32dp" android:id="@+id/results_missed" app:layout_constraintTop_toBottomOf="@+id/results_correct_text"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintTop_toTopOf="@+id/results_correct" app:layout_constraintEnd_toEndOf="parent" android:textSize="16sp" android:textColor="@color/colorLightText" android:text="NA" android:fontFamily="@font/work_sans" android:layout_marginEnd="32dp" android:id="@+id/results_correct_text"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintEnd_toEndOf="parent" android:textSize="16sp" android:textColor="@color/colorLightText" android:text="NA" android:fontFamily="@font/work_sans" android:layout_marginEnd="32dp" android:layout_marginTop="32dp" android:id="@+id/results_missed_text" app:layout_constraintTop_toBottomOf="@+id/results_correct"/>
+
+    <Button android:background="@drawable/button" android:layout_height="wrap_content" android:layout_width="0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:textSize="16sp" android:text="Go To Home" android:fontFamily="@font/work_sans" android:layout_marginEnd="32dp" android:layout_marginStart="32dp" android:id="@+id/results_home_btn" app:layout_constraintBottom_toBottomOf="parent" android:textAllCaps="false" android:layout_marginBottom="32dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
