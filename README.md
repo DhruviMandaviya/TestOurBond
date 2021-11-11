@@ -9,3 +9,16 @@ My First Androi quiz game
 
 # DETAIl OF QUIZZ
 <img align="left" img src="https://user-images.githubusercontent.com/68688918/140991304-c66eb49d-b5b0-4d1e-bc69-45b532300cdc.jpeg" width="250px">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+
+# QUESION DESK
+<img align="RIGHT" img src="https://user-images.githubusercontent.com/68688918/141248589-1cf5504b-10d5-4a1d-9ac4-953e515eb691.jpeg" width="250px">
