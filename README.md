@@ -5,7 +5,7 @@ My First Androi quiz game
  <img align="left" img src="https://user-images.githubusercontent.com/68688918/140989169-fb02bf0a-5a41-485e-bd63-bba3c933ca07.jpeg" width="250px">
  
 # QUIZZ LIST
-<img align="left" img src="https://user-images.githubusercontent.com/68688918/141262209-a2929f76-0b65-4e9d-9bbd-41c9f0756bb7.jpeg" width="250px">
+<img align="left" img src="https://user-images.githubusercontent.com/68688918/141263389-98abb0d4-6beb-4436-b1ae-4563860d2095.jpeg" width="250px">
 
 
 # DETAIl OF QUIZZ
